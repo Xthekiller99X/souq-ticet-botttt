@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
+ 
 client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag} !`);
-          client.user.setActivity("souq store",{type: '!help | !new'});
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`Souq store | !help`,"http://twitch.tv/ticketot")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
